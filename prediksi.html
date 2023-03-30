@@ -272,9 +272,14 @@ var T = [[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]
 		window.location.href = 'nostrokeResult.html';
         //location.href='nostrokeResult.html'
     }
-    else {
+    if (result==1) {
         //screen.value = prediksi
 		window.location.href = 'strokeResult.html';
+        //location.href='strokeResult.html'
+    }
+    else {
+	//screen.value = prediksi
+		window.location.href = 'error.html';
         //location.href='strokeResult.html'
     }
 }
