@@ -390,7 +390,7 @@ function finalx()
 {
     var d = 2;        // the dimension of input data
     var nclass = 2;   // the number of classes 
-    var L = 15;        // the number of hidden nodes
+    var L = 7;        // the number of hidden nodes
     var X = [[0,0],[0,1],[1,0],[1,1]];
     var T = [[0],[1],[1],[0]];
     var elm = new ELM(d, L, nclass, ELMType.Classification);
